@@ -389,17 +389,17 @@ public class Armor_Items {
         // The recipe is any stone in the shape of boots
         ShapedRecipe stoneBootsRecipe1 = new ShapedRecipe(NamespacedKey.minecraft("stonebootsone"), stoneBoots);
         stoneBootsRecipe1.shape("   "
-                              ,"S S"
-                              ,"S S");
+                               ,"S S"
+                               ,"S S");
 
         // We want various types of stone-like things to be used and be intermixed!
         stoneBootsRecipe1.setIngredient('S', new RecipeChoice.MaterialChoice(Material.STONE, Material.ANDESITE,
                 Material.DIORITE));
 
         ShapedRecipe stoneBootsRecipe2 = new ShapedRecipe(NamespacedKey.minecraft("stonebootstwo"), stoneBoots);
-        stoneBootsRecipe2.shape("   "
-                ,"S S"
-                ,"S S");
+        stoneBootsRecipe2.shape("S S"
+                               ,"S S"
+                               ,"   ");
 
         // We want various types of stone-like things to be used and be intermixed!
         stoneBootsRecipe2.setIngredient('S', new RecipeChoice.MaterialChoice(Material.STONE, Material.ANDESITE,
