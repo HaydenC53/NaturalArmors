@@ -24,14 +24,17 @@ package com.haydenc53.NaturalArmors;
 import com.haydenc53.NaturalArmors.Armor_Items.Armor_Items;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class NaturalArmors extends JavaPlugin {
+public class NaturalArmors extends JavaPlugin
+{
     @Override
-    public void onEnable() {
+    public void onEnable()
+    {
         Armor_Items.init();
     }
 
     @Override
-    public void onDisable() {
+    public void onDisable()
+    {
 
     }
 }
